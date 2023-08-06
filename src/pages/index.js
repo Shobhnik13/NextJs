@@ -12,16 +12,7 @@ export const getStaticProps=async()=>{
 
 const index = ({data}) => {
   return (
-    <>
-    {data.map((item)=>{
-        return(
-            <div key={item.id}>
-              {item.title}
-            </div>)
-        
-      })
-    }
-    </>
+   <div>hiiiiiii</div>
   )
 }
 
